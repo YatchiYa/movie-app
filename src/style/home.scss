@@ -1,0 +1,151 @@
+
+
+.img_bk{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/bk.jpg");
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.build-title{
+    position: relative;
+    width: 100%;
+    background: rgba(0 ,0, 0 , .82);
+    box-shadow: 0px 2px 5px black;
+    
+    .title{
+        position: relative;
+        color: white;
+        margin: 0px 40px;
+        font-weight: 400;
+        padding: 15px 13px;
+        text-align: inherit;
+    }
+}
+
+.building{
+    text-align: center;
+    .more{
+        position: relative;
+        background: black;
+        color: white;
+        font-size: 28px;
+        font-family: 'Roboto';
+        border-radius: 27px;
+        padding: 2px 30px;
+        border: none;
+        margin-top: 65vh;
+        box-shadow: 0px 0px 14px white;
+    }
+}
+
+
+.body-page{
+    position: relative;
+    margin-top: 28vh;
+}
+
+.filter{
+    position: relative;
+    background: #151414;
+    border-radius: 7px;
+    padding: 15px 40px;
+    box-shadow: 0px 0px 8px #b3b3b3;
+    text-align: center;
+}
+
+.custom-control-label::before, .custom-file-label, .custom-select {
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 11px;
+}
+
+
+a{
+    color:white;
+
+    &:hover{
+        color:white;
+    }
+}
+
+
+.row-xx{
+    position: relative;
+    margin-top: 10vh;
+}
+
+.delet{
+    position: relative;
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.MDBProgress{
+    
+    background-color: #04b3ff;
+}
+
+.cardd{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.likk{
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    i{
+        position: relative;
+        color: red;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+        font-size: 27px;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    .t1{
+        position: relative;
+        color: green;
+        margin-right: 40px;
+    }
+}
+
+
+.fthx_page{
+  
+    position: relative;
+    z-index: 23;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #000;
+    color: white;
+    text-align: center;
+    width: 101%;
+  
+    .dder{
+      position: relative;
+      position: relative;
+      color: white;
+      font-family: 'Font Awesome 5 Free';
+      font-size: 20px;
+      padding: 10px 6px;
+      padding-bottom: 0;
+    }
+  
+    .dderz{
+      position: relative;
+      position: relative;
+      color: white;
+      font-family: 'Sacremanto';
+      font-size: 22px;
+      padding: 6px 6px;
+      font-weight: 600;
+      padding-bottom: 0;
+  }
+  }

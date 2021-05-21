@@ -1,0 +1,61 @@
+{
+  "name": "blitzkreig",
+  "author": "youcef arab",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.10.8",
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/pickers": "^3.3.10",
+    "axios": "^0.19.2",
+    "jwt-decode": "^2.2.0",
+    "legendary-cursor": "^1.0.2",
+    "mdbootstrap": "^4.16.0",
+    "mdbreact": "^4.25.6",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.13.1",
+    "react-icons": "^4.2.0",
+    "react-media": "^1.10.0",
+    "react-particles-js": "^3.0.3",
+    "react-redux": "^7.2.0",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "3.2.0",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "concurrently \"node ./server/server.js \" \"npm start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "redux": "^4.0.5"
+  },
+  "engines": {
+    "node": "12.16.2"
+  }
+}
